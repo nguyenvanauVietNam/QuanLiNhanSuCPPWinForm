@@ -11,6 +11,7 @@ class CQuanLiNhanVienMFCApplicationDlg : public CDialogEx
 // Construction
 public:
 	CQuanLiNhanVienMFCApplicationDlg(CWnd* pParent = nullptr);	// standard constructor
+	~CQuanLiNhanVienMFCApplicationDlg();	// standard Destructor
 
 // Dialog Data
 #ifdef AFX_DESIGN_TIME
@@ -33,7 +34,10 @@ protected:
 	DECLARE_MESSAGE_MAP()
 private:
 	void InitCbx_Chuc_Vu();
+	void UpdateDanhSachNhanVien();
 	void InitListDanh_sach_nhan_vien();
+	void InitRadioButton();
+
 public:
 	// Combobox chức vụ
 	// Combobox chức vụ
@@ -70,4 +74,14 @@ public:
 	CListCtrl m_Danh_sach_nhan_vien;
 
 	DanhSachNhanVien *m_DanhSachNhanVien;
+	afx_msg void OnBnClickedBtnThem();
+	afx_msg void OnBnClickedBtnCapnhat();
+	afx_msg void OnBnClickedBtnXoa();
+	// Họ và tên nhân viên
+	CEdit m_HoVaTen;
+	afx_msg void OnCbnSelchangeCombocChucVu();
+	// mã nhân viên cần xóa
+	CEdit m_MaNVCanXoa;
+	afx_msg void OnDtnDatetimechangeDatetimepickerNgayVaoCongTy(NMHDR* pNMHDR, LRESULT* pResult);
+	afx_msg void OnNMDblclkDanhsachnhanvien(NMHDR* pNMHDR, LRESULT* pResult);
 };

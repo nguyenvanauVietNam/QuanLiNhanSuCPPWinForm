@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QuanLiNhanVien>
-        <NhanVien MaSoNhanVien = "0001" TenNhanVien = "Nguyen Van A" GioiTinh ="Nam" ChucVu = "Nhan Vien" NgayThangNamSinh = "16081996" NgayThangNamVaoCty ="01012023" LuongCanBan ="8000000" SoNgayLamViec = "22"  Thuong ="1754000" />
-        <NhanVien MaSoNhanVien = "0002" TenNhanVien = "Nguyen Van B" GioiTinh ="Nam" ChucVu = "Quan li" NgayThangNamSinh = "16081997" NgayThangNamVaoCty ="01012023" LuongCanBan ="9000000" SoNgayLamViec = "20"  Thuong ="1800000" />
-        <NhanVien MaSoNhanVien = "0003" TenNhanVien = "Nguyen Van C" GioiTinh ="Nu" ChucVu = "Nhan Vien" NgayThangNamSinh = "16081999" NgayThangNamVaoCty ="01012023" LuongCanBan ="9000000" SoNgayLamViec = "20"  Thuong ="1900000" />
-        <NhanVien MaSoNhanVien = "0004" TenNhanVien = "Nguyen Van D" GioiTinh ="Nu" ChucVu = "Quan li" NgayThangNamSinh = "15071999" NgayThangNamVaoCty ="01012023" LuongCanBan ="9000000" SoNgayLamViec = "21"  Thuong ="2000000" />
-        <NhanVien MaSoNhanVien = "0005" TenNhanVien = "Nguyen Van E" GioiTinh ="Nam" ChucVu = "Truong Nhom" NgayThangNamSinh = "13081996" NgayThangNamVaoCty ="01012023" LuongCanBan ="10000000" SoNgayLamViec = "20"  Thuong ="2100000" />
-        <NhanVien MaSoNhanVien = "0006" TenNhanVien = "Nguyen Van F" GioiTinh ="Nu" ChucVu = "Nhan Vien" NgayThangNamSinh = "12012000" NgayThangNamVaoCty ="01012023" LuongCanBan ="5000000" SoNgayLamViec = "22"  Thuong ="2250000" />
-        <NhanVien MaSoNhanVien = "0007" TenNhanVien = "Nguyen Van G" GioiTinh ="Nam" ChucVu = "Nhan Vien" NgayThangNamSinh = "11022001" NgayThangNamVaoCty ="01012023" LuongCanBan ="4000000" SoNgayLamViec = "22"  Thuong ="1540000" />
+﻿<QuanLiNhanVien>
+<NhanVien MaSoNhanVien="0008" TenNhanVien="Nguyen Van G" GioiTinh="Nu" ChucVu="Nhân viên" NgayThangNamSinh="20230803" NgayThangNamVaoCty="20230803" LuongCanBan="4000000" SoNgayLamViec="20" Thuong="20" />
+<NhanVien MaSoNhanVien="0001" TenNhanVien="Nguyen Van A" GioiTinh="Nam" ChucVu="Nhan Vien" NgayThangNamSinh="19960716" NgayThangNamVaoCty="20220817" LuongCanBan="8000000" SoNgayLamViec="22" Thuong="22" />
+<NhanVien MaSoNhanVien="0002" TenNhanVien="Nguyen Van B" GioiTinh="Nam" ChucVu="Quan li" NgayThangNamSinh="19970810" NgayThangNamVaoCty="20210217" LuongCanBan="9000000" SoNgayLamViec="20" Thuong="20" />
+<NhanVien MaSoNhanVien="0003" TenNhanVien="Nguyen Van C" GioiTinh="Nu" ChucVu="Nhan Vien" NgayThangNamSinh="19950811" NgayThangNamVaoCty="20200517" LuongCanBan="9000000" SoNgayLamViec="20" Thuong="20" />
+<NhanVien MaSoNhanVien="0004" TenNhanVien="Nguyen Van D" GioiTinh="Nu" ChucVu="Quan li" NgayThangNamSinh="19930814" NgayThangNamVaoCty="20200617" LuongCanBan="9000000" SoNgayLamViec="21" Thuong="21" />
+<NhanVien MaSoNhanVien="0005" TenNhanVien="Nguyen Van E" GioiTinh="Nam" ChucVu="Truong Nhom" NgayThangNamSinh="20000817" NgayThangNamVaoCty="20230817" LuongCanBan="10000000" SoNgayLamViec="20" Thuong="20" />
+<NhanVien MaSoNhanVien="0006" TenNhanVien="Nguyen Van F" GioiTinh="Nu" ChucVu="Nhan Vien" NgayThangNamSinh="20001217" NgayThangNamVaoCty="20190817" LuongCanBan="5000000" SoNgayLamViec="22" Thuong="22" />
+<NhanVien MaSoNhanVien="0007" TenNhanVien="Nguyen Van G" GioiTinh="Nam" ChucVu="Nhan Vien" NgayThangNamSinh="20030917" NgayThangNamVaoCty="20180817" LuongCanBan="4000000" SoNgayLamViec="22" Thuong="22" />
 </QuanLiNhanVien>
